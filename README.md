@@ -17,14 +17,36 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
 ----
 <h1>Content</h1>
 
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members).
-* `v-photos` contains 7 photos of the vehicle (from every side, from top and bottom).
-* `video` contains the video.md file with the link to a video where driving demonstration exists.
-* `schemes` Includes JPEG and PDF diagrams illustrating all car components electromechanic (electronic and others), and their connections.
-* `src` contains codes of control software for all components which were programmed to participate in the competition.
-* `models` They are files of designs 3D that were printed by two 3D printersTo produce car structure and
-its items. 
-* `other` These files pertain to the work environment and work-related events.
+## 📂 Repository Structure & Links
+
+### 1. Team Photos
+- [Official team photo](t-photos/team.jpg)
+- [Funny team photo](t-photos/team-fun.jpg)
+
+### 2. Vehicle Photos
+- [Front view](v-photos/front.jpg)
+- [Back view](v-photos/back.jpg)
+- [Top view](v-photos/top.jpg)
+- [Bottom view](v-photos/bottom.jpg)
+- [Left side](v-photos/left.jpg)
+- [Right side](v-photos/right.jpg)
+
+### 3. Video
+- [Driving demonstration](video/video.md)
+
+### 4. Schemes & Diagrams
+- [All diagrams folder](schemes/)
+
+### 5. Source Code
+- [Control software folder](src/)
+
+### 6. 3D Models
+- [3D printed designs folder](models/)
+
+### 7. Other Files
+- [Work environment & event files folder](other/)
+
+---
 
 <h1>Parts List</h1>
 
