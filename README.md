@@ -1,4 +1,4 @@
-<h1>Project Documentation | Team plusplus | Palestine</h1>
+<h1>Project Documentation | Team bakers | Palestine</h1>
 
 ----
 <h1>introduction</h1>
