@@ -15,12 +15,13 @@ Through this project, we’ve learned to collaborate, test ideas, and overcome c
 We’re excited to share our journey with you, and we hope Cookie inspires others to keep building, innovating, and dreaming big.
 
 ----
-<h1>Content</h1>
+
+<h1> content </h1>
 
 <details>
 <summary>1. Team Photos (t-photos)</summary>
 
-- [t-photos folder](t-photos/) — click to see all photos
+- [t-photos README](t-photos/README.md)
 - [Team photo file](t-photos/488643484_2903240211307105...)  
 
 </details>
@@ -28,14 +29,14 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
 <details>
 <summary>2. Vehicle Photos (v-photos)</summary>
 
-- [v-photos folder](v-photos/) — click to see all photos
+- [v-photos README](v-photos/README.md)
 
 </details>
 
 <details>
 <summary>3. Video</summary>
 
-- [video folder](video/) — click to see all videos
+- [video README](video/README.md)
 - [Video file](video/video.md)
 
 </details>
@@ -43,22 +44,20 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
 <details>
 <summary>4. Schemes & Diagrams (schemes)</summary>
 
-- [schemes folder](schemes/) — click to see all diagrams
+- [schemes README](schemes/README.md)
 
 </details>
 
 <details>
 <summary>5. Source Code (src)</summary>
 
-- [src folder](src/) — click to see all code
-- [src/round1 folder](src/round1/) — click to see round1 code
+- [src/round1 README](src/round1/README.md)
 
 </details>
 
 <details>
 <summary>6. 3D Models (models)</summary>
 
-- [models folder](models/) — click to see all 3D models
 - [.gitkeep](models/.gitkeep)
 
 </details>
@@ -66,15 +65,9 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
 <details>
 <summary>7. Other Files (other)</summary>
 
-- [other folder](other/) — click to see other files
 - [.gitkeep](other/.gitkeep)
 
 </details>
-
----
-
-> ✅ Click on the section headers to expand and see files/folders. Every link points directly to the file or folder in the repo.
-
 
 <h1>Parts List</h1>
 
