@@ -17,36 +17,64 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
 ----
 <h1>Content</h1>
 
-## 📂 Repository Structure & Links
+<details>
+<summary>1. Team Photos (t-photos)</summary>
 
-### 1. Team Photos
-- [Official team photo](t-photos/team.jpg)
-- [Funny team photo](t-photos/team-fun.jpg)
+- [t-photos folder](t-photos/) — click to see all photos
+- [Team photo file](t-photos/488643484_2903240211307105...)  
 
-### 2. Vehicle Photos
-- [Front view](v-photos/front.jpg)
-- [Back view](v-photos/back.jpg)
-- [Top view](v-photos/top.jpg)
-- [Bottom view](v-photos/bottom.jpg)
-- [Left side](v-photos/left.jpg)
-- [Right side](v-photos/right.jpg)
+</details>
 
-### 3. Video
-- [Driving demonstration](video/video.md)
+<details>
+<summary>2. Vehicle Photos (v-photos)</summary>
 
-### 4. Schemes & Diagrams
-- [All diagrams folder](schemes/)
+- [v-photos folder](v-photos/) — click to see all photos
 
-### 5. Source Code
-- [Control software folder](src/)
+</details>
 
-### 6. 3D Models
-- [3D printed designs folder](models/)
+<details>
+<summary>3. Video</summary>
 
-### 7. Other Files
-- [Work environment & event files folder](other/)
+- [video folder](video/) — click to see all videos
+- [Video file](video/video.md)
+
+</details>
+
+<details>
+<summary>4. Schemes & Diagrams (schemes)</summary>
+
+- [schemes folder](schemes/) — click to see all diagrams
+
+</details>
+
+<details>
+<summary>5. Source Code (src)</summary>
+
+- [src folder](src/) — click to see all code
+- [src/round1 folder](src/round1/) — click to see round1 code
+
+</details>
+
+<details>
+<summary>6. 3D Models (models)</summary>
+
+- [models folder](models/) — click to see all 3D models
+- [.gitkeep](models/.gitkeep)
+
+</details>
+
+<details>
+<summary>7. Other Files (other)</summary>
+
+- [other folder](other/) — click to see other files
+- [.gitkeep](other/.gitkeep)
+
+</details>
 
 ---
+
+> ✅ Click on the section headers to expand and see files/folders. Every link points directly to the file or folder in the repo.
+
 
 <h1>Parts List</h1>
 
