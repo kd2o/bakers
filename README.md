@@ -16,7 +16,17 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
 
 ----
 <h1>Electrical circuit</h1>
-<img src="schemes/Electrical circuit.png">
+<img src="schemes/Electrical circuit.png" width="450">
+
+
+----
+<h1>3D design</h1>
+<img src="schemes/basee.png" width="450"> 
+This is the newly added layer of the car.  
+The 3D model illustrates the updated design.  
+It has been integrated with the existing structure.  
+All components are aligned for proper assembly.  
+
 
 ----
 
