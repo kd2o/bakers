@@ -123,8 +123,44 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
   <img src="t-photos/488643484_29032402113071058_8942174443452896184_n.jpg" Width="450">
 
 ----
-<h2>Team members :</h2>
+# 👥 Meet Our Team
 
-- <a href="https://github.com/kd2o">Yazan Hindia</a> - Email : <yazanhendia@gmail.com>
-- <a href="https://github.com/****">Rayan Rino</a> - Email : <rinoorayan14@gmail.com>
-- <a href="https://github.com/****">Omar sharaf</a> - Email : <omarsharaf426@gmail.com>
+---
+
+### 🎯 Yazan Hindia
+![Yazan](t-photos/)
+Age: 14
+School: Rasheed Moneeb Almasry puplic school
+
+**GitHub:** [kd2o](https://github.com/kd2o)  
+**Email:** [yazanhendia@gmail.com](mailto:yazanhendia@gmail.com)  
+
+I'm passionate about **programming, cybersecurity, and building things from scratch**.  
+I love tackling problems logically, experimenting with new technologies, and giving *Cookie* its brain.  
+Outside of code, I enjoy adding humor and creativity to everything I do.  
+
+---
+
+### 🎨 Rayan Rino
+![Rayan](t-photos/)
+Age: 14
+School: The British Scientific School
+
+**Email:** [rinoorayan14@gmail.com](mailto:rinoorayan14@gmail.com)  
+
+I'm the **creative thinker** of the team.  
+With a sharp eye for design and a problem-solving mindset, I makes sure *Cookie* doesn’t just run well, but looks amazing too.  
+I also the motivator who keeps the team’s energy high!
+
+---
+
+### 🔧 Omar Sharaf
+![Omar](t-photos/)
+Age: 16
+School: Industrial Secondary School
+
+**Email:** [omarsharaf426@gmail.com](mailto:omarsharaf426@gmail.com)  
+
+Omar is the **hardware wizard**.  
+I love working with circuits, sensors, and motors, making sure *Cookie* can move, turn, and sense the world around it.  
+My focus and precision keeps the technical side of the project solid and reliable.  
