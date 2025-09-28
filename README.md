@@ -140,8 +140,6 @@ All components are aligned for proper assembly.  </h3>
 ----
 # 👥 Meet Our Team
 
----
-
 ### 🎯 Yazan Hindia
 ![Yazan](t-photos/)
 
@@ -157,7 +155,7 @@ All components are aligned for proper assembly.  </h3>
 I'm passionate about **programming, cybersecurity, and building things from scratch**.  
 I love tackling problems logically, experimenting with new technologies, and giving *Cookie* its brain.  
 Outside of code, I enjoy adding humor and creativity to everything I do.
----
+----
 
 ### 🎨 Rayan Rino
 <img src="t-photos/rayan.png">
@@ -173,12 +171,12 @@ Outside of code, I enjoy adding humor and creativity to everything I do.
 I'm the **creative thinker** of the team.  
 With a sharp eye for design and a problem-solving mindset, I makes sure *Cookie* doesn’t just run well, but looks amazing too.  
 I also the motivator who keeps the team’s energy high!
----
+----
 
 ### 🔧 Omar Sharaf
 
 
- <img src="t-photos/omar.png" width="150">
+ <img src="t-photos/omar.png" width="350">
 
 
 **Age**: 16
@@ -191,11 +189,6 @@ I also the motivator who keeps the team’s energy high!
 I love working with circuits, sensors, and motors, making sure *Cookie* can move, turn, and sense the world around it.  
 My focus and precision keeps the technical side of the project solid and reliable.**
 
-
-## Gyro PID Control
-
-This function implements a simple **PD controller** for a gyro sensor (MPU6050).  
-It adjusts the output based on the difference between the target angle and the current gyro angle.
 
 # Gyro PID Control
 
