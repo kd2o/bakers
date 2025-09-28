@@ -17,15 +17,16 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
 ----
 <h1>Electrical circuit</h1>
 <img src="schemes/Electrical circuit.png" width="450">
+<h3>In this circuit, the motor driver (L298N) is powered directly from the battery, and it also provides a regulated 5V output that powers the Arduino Uno. The three ultrasonic sensors and the servo motor receive their 5V supply from the Arduino’s 5V pin, distributed through the breadboard. The gyroscope (MPU6050) and the motor encoder are powered by the Arduino’s 3.3V pin through the breadboard for signal connections. The motor driver is controlled by the Arduino through pins 13 and 12 for motor direction, and pins 11 and 3 (PWM) for motor speed. The ultrasonic sensors are wired with trig and echo pins: forward on 5 and 6, right on 7 and 8, and left on 9 and 10. Finally, the encoder signal is read on pin 2, enabling the Arduino to measure motor rotation for precise navigation.</h3>
 
 
 ----
 <h1>3D design</h1>
 <img src="schemes/basee.png" width="450"> 
-This is the newly added layer of the car.  
+<h3>This is the newly added layer of the car.  
 The 3D model illustrates the updated design.  
 It has been integrated with the existing structure.  
-All components are aligned for proper assembly.  
+All components are aligned for proper assembly.  </h3>
 
 
 ----
@@ -191,18 +192,55 @@ I love working with circuits, sensors, and motors, making sure *Cookie* can move
 My focus and precision keeps the technical side of the project solid and reliable.**
 
 
-```ino
-void procesarMPU(int16_t *gyro, int16_t *accel, int32_t *quat, uint32_t *timestamp) {
-    Quaternion q;  // Quaternion object to store rotation data
-    VectorFloat gravity;  // Gravity vector for accurate yaw calculation
-    float ypr[3] = { 0, 0, 0 };  // Yaw, pitch, roll values
-    float xyz[3] = { 0, 0, 0 };  // Raw sensor data values
+## Gyro PID Control
 
-    // Get quaternion, gravity, and yaw-pitch-roll data from the MPU
-    mpu.GetQuaternion(&q, quat);
-    mpu.GetGravity(&gravity, &q);
-    mpu.GetYawPitchRoll(ypr, &q, &gravity);
-    mpu.ConvertToDegrees(ypr, xyz);
+This function implements a simple **PD controller** for a gyro sensor (MPU6050).  
+It adjusts the output based on the difference between the target angle and the current gyro angle.
 
-    // Update the yaw value globally
-    yawActual = (int)xyz[0];
+# Gyro PID Control
+
+This project demonstrates a **PD (Proportional-Derivative) controller** for the MPU6050 gyro sensor, used to control the angle of a robot or vehicle accurately.
+
+## Description
+
+The PD controller calculates the error between the desired angle (`target_angle`) and the current gyro angle. It then applies **proportional** and **derivative** corrections to minimize the error smoothly.
+
+## Code Example
+
+```cpp
+// -----------------------------------------
+// PD controller for MPU6050 gyro sensor
+// -----------------------------------------
+
+float kp = 1.0;        // Proportional gain
+float kd = 0.1;        // Derivative gain
+float old_error = 0;   // Previous error value
+float last_d = 0;      // Previous derivative value
+float d_filter_alpha = 0.7;  // Smoothing factor for derivative
+int target_angle = 0;  // Desired angle
+int turns = 0;         // Number of 90° turns completed
+
+float Gyro_Pid(int turns1) {
+  mpu6050.update();  // Update gyro readings
+
+  // Calculate error: target angle - current angle - turns adjustment
+  float error = target_angle - (mpu6050.getAngleZ() - turns1 * 90);
+
+  // Proportional term
+  float p = kp * error;
+
+  // Raw derivative term
+  float d_raw = kd * (error - old_error);
+
+  // Filtered derivative to smooth sudden spikes
+  float d = d_filter_alpha * last_d + (1 - d_filter_alpha) * d_raw;
+
+  // PD output
+  float output = p + d;
+
+  // Update previous values for next iteration
+  old_error = error;
+  last_d = d;
+
+  return output;  // Return control value
+}
