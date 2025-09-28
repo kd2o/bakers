@@ -111,6 +111,10 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
     <td>Battery (12V)</td>
     <td><img src="https://5.imimg.com/data5/SELLER/Default/2021/9/DO/BR/HK/138923474/12v-1-3ah-battery-500x500.jpg" width="150"></td>
   </tr>
+  <tr>
+    <td>Robot kit</td>
+    <td>/<a href="https://technolab.ps/detail/5451"><img src="" width="150"></a></td>
+  </tr>
 </table>
 
 
