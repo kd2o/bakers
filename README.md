@@ -77,15 +77,11 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
   </tr>
   <tr>
     <td>Arduino Uno R3</td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" width="150"></td>
+    <td><img src="components/Arduino Uno R3.jpg" width="150"></td>
   </tr>
   <tr>
     <td>Raspberry Pi 4</td>
     <td><img src="components/Raspberry Pi 4" width="150"></td>
-  </tr>
-  <tr>
-    <td>DC Motor</td>
-    <td><img src="https://www.electronicscomp.com/image/cache/catalog/dc-motor/straight-motor/100rpm-bo-motor-500x500.jpg" width="150"></td>
   </tr>
   <tr>
     <td>Motor Driver L298N</td>
@@ -93,18 +89,18 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
   </tr>
   <tr>
     <td>Picam 3</td>
-    <td><img src="https://www.raspberrypi.com/documentation/accessories/camera/images/camera-module-3.jpg" width="150"></td>
+    <td><img src="components/picam" width="150"></td>
   </tr>
   <tr>
     <td>Servo Motor</td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Servo_motor.jpg" width="150"></td>
+    <td><img src="components/Servo_MG996R.jpg" width="150"></td>
   </tr>
   <tr>
     <td>UltraSonic HC-SR04</td>
     <td><img src="components/ultrasonic.pngg" width="150"></td>
   </tr>
   <tr>
-    <td>Gyro Sensor (MPU-6050)</td>
+    <td>Gyroscope (MPU-6050)</td>
     <td><img src="components/mpu6050.png" width="150"></td>
   </tr>
   <tr>
