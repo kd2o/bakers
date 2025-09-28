@@ -189,3 +189,20 @@ I also the motivator who keeps the team’s energy high!
 **Omar is the **hardware wizard**.  
 I love working with circuits, sensors, and motors, making sure *Cookie* can move, turn, and sense the world around it.  
 My focus and precision keeps the technical side of the project solid and reliable.**
+
+
+```ino
+void procesarMPU(int16_t *gyro, int16_t *accel, int32_t *quat, uint32_t *timestamp) {
+    Quaternion q;  // Quaternion object to store rotation data
+    VectorFloat gravity;  // Gravity vector for accurate yaw calculation
+    float ypr[3] = { 0, 0, 0 };  // Yaw, pitch, roll values
+    float xyz[3] = { 0, 0, 0 };  // Raw sensor data values
+
+    // Get quaternion, gravity, and yaw-pitch-roll data from the MPU
+    mpu.GetQuaternion(&q, quat);
+    mpu.GetGravity(&gravity, &q);
+    mpu.GetYawPitchRoll(ypr, &q, &gravity);
+    mpu.ConvertToDegrees(ypr, xyz);
+
+    // Update the yaw value globally
+    yawActual = (int)xyz[0];
