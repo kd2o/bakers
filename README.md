@@ -89,7 +89,7 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
   </tr>
   <tr>
     <td>Picam 3</td>
-    <td><img src="components/picam" width="150"></td>
+    <td><img src="components/picam.jpeg" width="150"></td>
   </tr>
   <tr>
     <td>Servo Motor</td>
@@ -97,7 +97,7 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
   </tr>
   <tr>
     <td>UltraSonic HC-SR04</td>
-    <td><img src="components/ultrasonic.pngg" width="150"></td>
+    <td><img src="components/ultrasonic.png" width="150"></td>
   </tr>
   <tr>
     <td>Gyroscope (MPU-6050)</td>
@@ -105,11 +105,11 @@ We’re excited to share our journey with you, and we hope Cookie inspires other
   </tr>
   <tr>
     <td>Battery (12V)</td>
-    <td><img src="https://5.imimg.com/data5/SELLER/Default/2021/9/DO/BR/HK/138923474/12v-1-3ah-battery-500x500.jpg" width="150"></td>
+    <td><img src="components/battery.jpeg" width="150"></td>
   </tr>
   <tr>
     <td>Robot kit</td>
-    <td>/<a href="https://technolab.ps/detail/5451"><img src="" width="150"></a></td>
+    <td>/<a href="https://technolab.ps/detail/5451"><img src="components/RobotKit.png" width="150"></a></td>
   </tr>
 </table>
 
