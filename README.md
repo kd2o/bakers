@@ -49,58 +49,87 @@ All components are carefully aligned for **easy assembly** and **stable performa
 
 ---
 
-<h1>📂 Repository Content</h1>
+# 📂 Repository Content
 
 <details>
 <summary>1. 👥 Team Photos (t-photos)</summary>
 
-- [t-photos README](t-photos/README.md)  
-- [Team photo file](t-photos/488643484_2903240211307105...)  
+- [c.hamed.jpg](src/t-photos/c.hamed.jpg)  
+- [omar.png](src/t-photos/omar.png)  
+- [rayan.png](src/t-photos/rayan.png)  
+- [yazan.png](src/t-photos/yazan.png)  
 
 </details>
 
 <details>
 <summary>2. 🚘 Vehicle Photos (v-photos)</summary>
 
-- [v-photos README](v-photos/README.md)  
+- [README](src/v-photos/README.md)  
+- [d9445cda32fcfdbb8c674becf26fcd7c.jpg](src/v-photos/d9445cda32fcfdbb8c674becf26fcd7c.jpg)  
 
 </details>
 
 <details>
 <summary>3. 🎥 Video</summary>
 
-- [video README](video/README.md)  
-- [Video file](video/video.md)  
+- [README](src/video/README.md)  
 
 </details>
 
 <details>
 <summary>4. 📊 Schemes & Diagrams (schemes)</summary>
 
-- [schemes README](schemes/README.md)  
+- [Electrical circuit](schemes/Electrical%20circuit.png)  
+- [basee](schemes/basee.png)  
+- [ultrasonic holder](schemes/ultrasonic%20holder.png)  
 
 </details>
 
 <details>
 <summary>5. 💻 Source Code (src)</summary>
 
-- [src/round1 README](src/round1/README.md)  
+- [round1/hi.cpp](src/round1/hi.cpp)  
+- [round1/stage1.ino](src/round1/stage1.ino)  
+- [round1/README](src/round1/README.md)  
 
 </details>
 
 <details>
 <summary>6. 🧩 3D Models (models)</summary>
 
+- [FT-Gear-Z20.stl](models/FT-Gear-Z20.stl)  
+- [basee (1).gx](models/basee%20(1).gx)  
+- [ft-gear-10.stl](models/ft-gear-10.stl)  
+- [ultrasonic holder (1).gx](models/ultrasonic%20holder%20(1).gx)  
 - [.gitkeep](models/.gitkeep)  
 
 </details>
 
 <details>
-<summary>7. 📦 Other Files (other)</summary>
+<summary>7. 🧰 Components (components)</summary>
+
+- [Arduino Uno R3.jpg](components/Arduino%20Uno%20R3.jpg)  
+- [L298N.jpg](components/L298N.jpg)  
+- [MotorWithEncoder.jpg](components/MotorWithEncoder.jpg)  
+- [Raspberry Pi 4](components/Raspberry%20Pi%204)  
+- [RobotKit.png](components/RobotKit.png)  
+- [Screenshot 2025-09-28 194134.png](components/Screenshot%202025-09-28%20194134.png)  
+- [Servo_MG996R.jpg](components/Servo_MG996R.jpg)  
+- [UltraSonic.jpg](components/UltraSonic.jpg)  
+- [battery.jpeg](components/battery.jpeg)  
+- [mpu6050.png](components/mpu6050.png)  
+- [picam.jpeg](components/picam.jpeg)  
+- [ultrasonic.png](components/ultrasonic.png)  
+
+</details>
+
+<details>
+<summary>8. 📦 Other Files (other)</summary>
 
 - [.gitkeep](other/.gitkeep)  
 
 </details>
+
 
 ---
 
