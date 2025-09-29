@@ -1,90 +1,110 @@
-<h1>Project Documentation | Team bakers | Palestine</h1>
+<h1 align="center">🚗🍪 Project Documentation | Team Bakers | Palestine</h1>
 
-----
-<h1>introduction</h1>
+---
 
+<h1>✨ Introduction</h1>
 
+We are the **Bakers Team**, and we would like to introduce you to our autonomous car, **Cookie**!  
+Cookie is more than just a project – it’s a combination of **innovation, teamwork, and problem-solving**.  
 
-We are the Bakers Team, and we would like to introduce you to our autonomous car, Cookie!
-Cookie is more than just a project – it’s a combination of innovation, teamwork, and problem-solving. Designed for the WRO Future Engineers category, Cookie is equipped with smart sensors, precise control systems, and advanced programming that allow it to navigate, adapt, and make decisions on its own.
+Designed for the **WRO Future Engineers** category, Cookie is equipped with:  
+- 🔹 Smart sensors  
+- 🔹 Precise control systems  
+- 🔹 Advanced programming  
 
-Our goal with Cookie is not only to compete but also to explore real-world applications of autonomous technology. From improving road safety to reducing human error, autonomous cars represent the future of mobility – and Cookie is our step toward that future.
+Together, these allow it to **navigate, adapt, and make decisions on its own**.  
 
-Through this project, we’ve learned to collaborate, test ideas, and overcome challenges together. Every component, from the hardware to the software, was built and fine-tuned by our team to ensure Cookie can handle dynamic environments while staying efficient and reliable.
+Our goal with Cookie is not only to compete but also to explore **real-world applications of autonomous technology**. From improving road safety to reducing human error, autonomous cars represent the future of mobility – and Cookie is our step toward that future.  
 
-We’re excited to share our journey with you, and we hope Cookie inspires others to keep building, innovating, and dreaming big.
+Through this project, we’ve learned to collaborate, test ideas, and overcome challenges together. Every component, from **hardware** to **software**, was built and fine-tuned by our team to ensure Cookie can handle dynamic environments while staying **efficient and reliable**.  
 
-----
-<h1>Electrical circuit</h1>
+We’re excited to share our journey with you, and we hope Cookie inspires others to **keep building, innovating, and dreaming big**. 🚀  
+
+---
+
+<h1>🔌 Electrical Circuit</h1>
 <img src="schemes/Electrical circuit.png" width="450">
-<h3>In this circuit, the motor driver (L298N) is powered directly from the battery, and it also provides a regulated 5V output that powers the Arduino Uno. The three ultrasonic sensors and the servo motor receive their 5V supply from the Arduino’s 5V pin, distributed through the breadboard. The gyroscope (MPU6050) and the motor encoder are powered by the Arduino’s 3.3V pin through the breadboard for signal connections. The motor driver is controlled by the Arduino through pins 13 and 12 for motor direction, and pins 11 and 3 (PWM) for motor speed. The ultrasonic sensors are wired with trig and echo pins: forward on 5 and 6, right on 7 and 8, and left on 9 and 10. Finally, the encoder signal is read on pin 2, enabling the Arduino to measure motor rotation for precise navigation.</h3>
 
+<h3>
+In this circuit, the **motor driver (L298N)** is powered directly from the battery, and it also provides a regulated 5V output that powers the **Arduino Uno**.  
+The three ultrasonic sensors and the servo motor receive their 5V supply from the Arduino’s 5V pin, distributed through the breadboard.  
 
-----
-<h1>3D design</h1>
+The **gyroscope (MPU6050)** and the **motor encoder** are powered by the Arduino’s 3.3V pin through the breadboard for signal connections.  
+
+- 🔹 Motor driver controlled via pins 13 & 12 for direction, and pins 11 & 3 (PWM) for speed.  
+- 🔹 Ultrasonic sensors: forward on pins 5 & 6, right on 7 & 8, left on 9 & 10.  
+- 🔹 Encoder signal: pin 2 → allows precise motor rotation measurement for accurate navigation.  
+</h3>
+
+---
+
+<h1>🛠️ 3D Design</h1>
 <img src="schemes/basee.png" width="450"> 
-<h3>This is the newly added layer of the car.  
-The 3D model illustrates the updated design.  
-It has been integrated with the existing structure.  
-All components are aligned for proper assembly.  </h3>
 
+<h3>
+This is the **newly added layer** of the car.  
+The 3D model illustrates the updated design, fully integrated with the existing structure.  
+All components are carefully aligned for **easy assembly** and **stable performance**.  
+</h3>
 
-----
+---
 
-<h1> content </h1>
+<h1>📂 Repository Content</h1>
 
 <details>
-<summary>1. Team Photos (t-photos)</summary>
+<summary>1. 👥 Team Photos (t-photos)</summary>
 
-- [t-photos README](t-photos/README.md)
+- [t-photos README](t-photos/README.md)  
 - [Team photo file](t-photos/488643484_2903240211307105...)  
 
 </details>
 
 <details>
-<summary>2. Vehicle Photos (v-photos)</summary>
+<summary>2. 🚘 Vehicle Photos (v-photos)</summary>
 
-- [v-photos README](v-photos/README.md)
-
-</details>
-
-<details>
-<summary>3. Video</summary>
-
-- [video README](video/README.md)
-- [Video file](video/video.md)
+- [v-photos README](v-photos/README.md)  
 
 </details>
 
 <details>
-<summary>4. Schemes & Diagrams (schemes)</summary>
+<summary>3. 🎥 Video</summary>
 
-- [schemes README](schemes/README.md)
-
-</details>
-
-<details>
-<summary>5. Source Code (src)</summary>
-
-- [src/round1 README](src/round1/README.md)
+- [video README](video/README.md)  
+- [Video file](video/video.md)  
 
 </details>
 
 <details>
-<summary>6. 3D Models (models)</summary>
+<summary>4. 📊 Schemes & Diagrams (schemes)</summary>
 
-- [.gitkeep](models/.gitkeep)
+- [schemes README](schemes/README.md)  
 
 </details>
 
 <details>
-<summary>7. Other Files (other)</summary>
+<summary>5. 💻 Source Code (src)</summary>
 
-- [.gitkeep](other/.gitkeep)
+- [src/round1 README](src/round1/README.md)  
 
 </details>
 
-<h1>Parts List</h1>
+<details>
+<summary>6. 🧩 3D Models (models)</summary>
+
+- [.gitkeep](models/.gitkeep)  
+
+</details>
+
+<details>
+<summary>7. 📦 Other Files (other)</summary>
+
+- [.gitkeep](other/.gitkeep)  
+
+</details>
+
+---
+
+<h1>📑 Parts List</h1>
 <table>
   <tr>
     <th>Component</th>
@@ -111,7 +131,7 @@ All components are aligned for proper assembly.  </h3>
     <td><img src="components/Servo_MG996R.jpg" width="150"></td>
   </tr>
   <tr>
-    <td>UltraSonic HC-SR04</td>
+    <td>Ultrasonic HC-SR04</td>
     <td><img src="components/ultrasonic.png" width="150"></td>
   </tr>
   <tr>
@@ -123,117 +143,229 @@ All components are aligned for proper assembly.  </h3>
     <td><img src="components/battery.jpeg" width="150"></td>
   </tr>
   <tr>
-    <td>Robot kit</td>
-    <td>/<a href="https://technolab.ps/detail/5451"><img src="components/RobotKit.png" width="150"></a></td>
+    <td>Robot Kit</td>
+    <td><a href="https://technolab.ps/detail/5451"><img src="components/RobotKit.png" width="150"></a></td>
   </tr>
 </table>
 
+---
 
-----
+<h2>👨‍🏫 Team Coach</h2>
 
-<h2>Team coach</h2>
+- <a href="https://www.facebook.com/HamedZaferSwaiseh">Hamed Swaiseh</a>  
+📧 Email: Hamed7710@gmail.com  
 
-- <a href="https://www.facebook.com/HamedZaferSwaiseh">Hamed Swaiseh<a/> - Email : <Hamed7710@gmail.com>
+<img src="t-photos/c.hamed.jpg" width="450">
 
-  <img src="t-photos/488643484_29032402113071058_8942174443452896184_n.jpg" Width="450">
+---
 
-----
 # 👥 Meet Our Team
 
 ### 🎯 Yazan Hindia
-![Yazan](t-photos/)
+<img src="t-photos/yazan.png" width="450">
 
-
-**Age: 14**
-
-
-**School: Rasheed Moneeb Almasry puplic school**
-
+**Age:** 14  
+**School:** Rasheed Moneeb Almasry Public School  
 **GitHub:** [kd2o](https://github.com/kd2o)  
 **Email:** [yazanhendia@gmail.com](mailto:yazanhendia@gmail.com)  
 
 I'm passionate about **programming, cybersecurity, and building things from scratch**.  
-I love tackling problems logically, experimenting with new technologies, and giving *Cookie* its brain.  
-Outside of code, I enjoy adding humor and creativity to everything I do.
-----
+I love tackling problems logically, experimenting with new technologies, and giving *Cookie* its **brain**.  
+Outside of code, I enjoy adding **humor and creativity** to everything I do.  
+
+---
 
 ### 🎨 Rayan Rino
-<img src="t-photos/rayan.png">
+<img src="t-photos/rayan.png" width="350">
 
-
-**Age: 14**
-
-
-**School: The British Scientific School**
-
+**Age:** 14  
+**School:** The British Scientific School  
 **Email:** [rinoorayan14@gmail.com](mailto:rinoorayan14@gmail.com)  
 
-I'm the **creative thinker** of the team.  
-With a sharp eye for design and a problem-solving mindset, I makes sure *Cookie* doesn’t just run well, but looks amazing too.  
-I also the motivator who keeps the team’s energy high!
-----
+I’m the **creative thinker** of the team.  
+With a sharp eye for design and a problem-solving mindset, I make sure *Cookie* doesn’t just **run well**, but also **looks amazing**.  
+I’m also the motivator who keeps the team’s energy high!  
+
+---
 
 ### 🔧 Omar Sharaf
+<img src="t-photos/omar.png" width="350">
 
-
- <img src="t-photos/omar.png" width="350">
-
-
-**Age**: 16
-
-**School**: Industrial Secondary School
-
+**Age:** 16  
+**School:** Industrial Secondary School  
 **Email:** [omarsharaf426@gmail.com](mailto:omarsharaf426@gmail.com)  
 
-**Omar is the **hardware wizard**.  
-I love working with circuits, sensors, and motors, making sure *Cookie* can move, turn, and sense the world around it.  
-My focus and precision keeps the technical side of the project solid and reliable.**
+Omar is the **hardware wizard**.  
+He loves working with **circuits, sensors, and motors**, making sure *Cookie* can move, turn, and sense the world around it.  
+His **focus and precision** keep the technical side of the project solid and reliable.  
+
+---
 
 
-# Gyro PID Control
+## 💡 Code Example
 
-This project demonstrates a **PD (Proportional-Derivative) controller** for the MPU6050 gyro sensor, used to control the angle of a robot or vehicle accurately.
+# Arduino Autonomous Robotic Car README
 
-## Description
+This project is an autonomous robotic car using Arduino, Servo motor for steering, MPU6050 sensor for orientation, and ultrasonic sensors for obstacle detection.
 
-The PD controller calculates the error between the desired angle (`target_angle`) and the current gyro angle. It then applies **proportional** and **derivative** corrections to minimize the error smoothly.
-
-## Code Example
+## 1️⃣ Libraries and Pins
 
 ```cpp
-// -----------------------------------------
-// PD controller for MPU6050 gyro sensor
-// -----------------------------------------
+#include <Arduino.h>
+#include <Servo.h>
+#include <MPU6050_tockn.h>
+#include <Wire.h>
+```
 
-float kp = 1.0;        // Proportional gain
-float kd = 0.1;        // Derivative gain
-float old_error = 0;   // Previous error value
-float last_d = 0;      // Previous derivative value
-float d_filter_alpha = 0.7;  // Smoothing factor for derivative
-int target_angle = 0;  // Desired angle
-int turns = 0;         // Number of 90° turns completed
+* `Arduino.h` → Basic Arduino library.
+* `Servo.h` → To control the servo motor (steering).
+* `MPU6050_tockn.h` → Library to read MPU6050 (gyro + accelerometer).
+* `Wire.h` → I2C communication for MPU6050.
 
-float Gyro_Pid(int turns1) {
-  mpu6050.update();  // Update gyro readings
+### Pin Definitions
 
-  // Calculate error: target angle - current angle - turns adjustment
-  float error = target_angle - (mpu6050.getAngleZ() - turns1 * 90);
+```cpp
+#define BUTTON_PIN 4
+#define MP1 13
+#define MP2 12
+#define SCP 11
+#define SSP 3
+#define trigforward 5
+#define echoforward 6
+#define trigright 7
+#define echoright 8
+#define trigleft 9          
+#define echoleft 10
+#define ENCODER_PIN 2
+```
 
-  // Proportional term
-  float p = kp * error;
+* `BUTTON_PIN` → Start/stop button.
+* `MP1, MP2` → Motor direction pins.
+* `SCP` → Motor speed (PWM).
+* `SSP` → Servo control pin for steering.
+* `trig*`, `echo*` → Ultrasonic sensors for obstacle detection.
+* `ENCODER_PIN` → Encoder for distance measurement.
 
-  // Raw derivative term
-  float d_raw = kd * (error - old_error);
+## 2️⃣ Main Variables
 
-  // Filtered derivative to smooth sudden spikes
-  float d = d_filter_alpha * last_d + (1 - d_filter_alpha) * d_raw;
+```cpp
+Servo steering;
+MPU6050 mpu6050(Wire);
+volatile long encoderCount = 0;
+```
 
-  // PD output
-  float output = p + d;
+* `steering` → Servo object.
+* `mpu6050` → Gyro/accelerometer sensor object.
+* `encoderCount` → Encoder pulse count.
+* `volatile` → Modified in ISR.
 
-  // Update previous values for next iteration
-  old_error = error;
-  last_d = d;
+## 3️⃣ Encoder Functions
 
-  return output;  // Return control value
+```cpp
+void encoderISR() { encoderCount++; }
+void setupEncoder() { attachInterrupt(digitalPinToInterrupt(ENCODER_PIN), encoderISR, RISING); }
+long getEncoderCount() { return encoderCount; }
+void resetEncoder() { encoderCount = 0; }
+```
+
+* `encoderISR()` → Increment encoder on pulse.
+* `setupEncoder()` → Setup interrupt.
+* `getEncoderCount()` → Read pulses.
+* `resetEncoder()` → Reset encoder.
+
+## 4️⃣ Ultrasonic Sensor Functions
+
+```cpp
+float get_dis(int trigPin, int echoPin) {...}
+int ret_avr(int trigPin, int echoPin) {...}
+int get_dir() {...}
+```
+
+* `get_dis()` → Measure distance in cm.
+* `ret_avr()` → Average distance of 3 readings.
+* `get_dir()` → Determine direction:
+
+  * `0` → Forward if distance > 100 cm
+  * `1` → Turn right if distance > 70 cm
+  * `2` → Turn left or obstacle detected
+
+## 5️⃣ Movement Functions
+
+```cpp
+void turn_right() {...}
+void turn_left() {...}
+void move_forward(int speed) {...}
+void move_backward(int speed) {...}
+void Stop() {...}
+```
+
+* `turn_right()` / `turn_left()` → Use MPU6050 for accurate turns.
+* `move_forward(speed)` → Move car forward.
+* `move_backward(speed)` → Move car backward.
+* `Stop()` → Stop motors.
+
+## 6️⃣ Gyro PID Function
+
+```cpp
+float Gyro_Pid(int turns1) {...}
+```
+
+* Controls steering using gyro.
+* `error` → Difference between target angle and current.
+* `p` → Proportional term.
+* `d` → Derivative term with filter.
+* `output` → Final steering value.
+
+## 7️⃣ Helper Functions
+
+```cpp
+bool isButtonPressed() { return digitalRead(BUTTON_PIN) == LOW; }
+```
+
+* Checks if the button is pressed.
+
+## 8️⃣ Setup
+
+```cpp
+void setup() {
+  Serial.begin(9600);
+  pinMode(...);
+  steering.attach(SSP);
+  Wire.begin();
+  mpu6050.begin();
+  mpu6050.calcGyroOffsets(true);
+  setupEncoder();
 }
+```
+
+* Initialize pins, servo, MPU6050, and encoder.
+* Calibrate gyro offsets.
+
+## 9️⃣ Loop (Autonomous Behavior)
+
+```cpp
+void loop() {
+   move_forward(255);
+   Serial.println(getEncoderCount());
+
+  if(get_dis(trigforward, echoforward)<100){
+    int wanted_angle = mpu6050.getAngleZ() + 90;
+    int steering_angle=0;
+    while(mpu6050.getAngleZ()<wanted_angle){
+       steering_angle+=5;
+       steering.write(90+steering_angle);
+       Serial.println(get_dis(trigforward, echoforward));
+    }
+ }
+}
+```
+
+* Moves car forward at max speed (255).
+* Prints encoder count to Serial.
+* If obstacle detected (<100 cm), calculates target angle and turns the car gradually until path is clear.
+* Uses MPU6050 for precise turning.
+
+💡 **Note:** This loop implements basic obstacle avoidance and autonomous steering using ultrasonic sensors and gyro feedback.
+
+
+
